@@ -10,7 +10,7 @@ const containerStyle = {
   gap: "16px",
 };
 
-export const StarRating = ({
+const StarRating = ({
   maxRating = 5,
   color = "#FCC419",
   size = 48,
@@ -95,6 +95,8 @@ const Star = ({ onClick, full, onHoverIn, onHoverOut, color, size }) => {
     </span>
   );
 };
+
+export default StarRating;
 
 /*
 FULL STAR
